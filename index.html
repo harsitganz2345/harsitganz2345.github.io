@@ -1,124 +1,173 @@
 <!DOCTYPE html>
 <html lang="id">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portofolio Saya</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-</head>
-<body>
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container">
-      <a class="navbar-brand" href="#">Portofolio</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link" href="#about">Tentang</a></li>
-          <li class="nav-item"><a class="nav-link" href="#portfolio">Portofolio</a></li>
-          <li class="nav-item"><a class="nav-link" href="#contact">Kontak</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-  <!-- Hero -->
-  <header class="bg-primary text-white text-center py-5">
-    <div class="container">
-      <h1 class="display-4">Halo, Saya Muhammad Harun Al Rasyid</h1>
-      <p class="lead">Web Developer | Web Designer | Freelancer</p>
-    </div>
-  </header>
-
-  <!-- Tentang -->
-  <section id="about" class="py-5">
-    <div class="card mb-3" style="max-width: 540px;">
-      <div class="row g-0">
-        <div class="col-md-4">
-          <img src="img/pp.png" class="img-fluid rounded-start" alt="...">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio Saya</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">Portofolio</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">Tentang</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portofolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Kontak</a>
+            </li>
+          </ul>
         </div>
-        <div class="col-md-8">
-          <div class="card-body">
-            <h5 class="card-title">Tentang Saya</h5>
-            <p class="card-text">Saya adalah seorang Junior Frontend Developer yang terbiasa menggunakan HTML,Tailwind CSS,Bootstrap,React.js,.NET,Express.js</p>
-            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+      </div>
+    </nav>
+
+    <!-- Hero -->
+    <header class="bg-primary text-white text-center py-5">
+      <div class="container">
+        <h1 class="display-4">Halo, Saya Muhammad Harun Al Rasyid</h1>
+        <p class="lead">Web Developer | Web Designer | Freelancer</p>
+      </div>
+    </header>
+
+    <!-- Tentang -->
+    <section id="about" class="d-flex justify-content-center align-items-center" style="min-height: 100vh;">
+      <div class="card mb-3" style="max-width: 540px">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="img/pp.png" class="img-fluid rounded-start" alt="..." />
           </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Portofolio -->
-  <section id="portfolio" class="py-5 bg-light">
-    <div class="container">
-      <h2 class="text-center mb-4">Portofolio</h2>
-      <div class="row g-4">
-        <div class="col-md-4">
-          <div class="card">
-            <img src="img/ecommerce.png" class="card-img-top" alt="Project 1">
+          <div class="col-md-8">
             <div class="card-body">
-              <h5 class="card-title">Project 1</h5>
-              <p class="card-text">Membuat Website Ecommerce menggunakan tools React.js dan Express.js</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card">
-            <img src="img/sekolah.jpg" class="card-img-top" alt="Project 2">
-            <div class="card-body">
-              <h5 class="card-title">Project 2</h5>
-              <p class="card-text">Membuat Website Sekolah Hebat menggunakan tools PHP fullstack</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card">
-            <img src="img/movie.jpg" class="card-img-top" alt="Project 3">
-            <div class="card-body">
-              <h5 class="card-title">Project 3</h5>
-              <p class="card-text">Membuat website Kumpulan movie menggunakan React.js</p>
+              <h5 class="card-title">Tentang Saya</h5>
+              <p class="card-text">
+                Saya adalah seorang Junior Frontend Developer yang terbiasa
+                menggunakan HTML,Tailwind CSS,Bootstrap,React.js,.NET,Express.js
+              </p>
+              <p class="card-text">
+                <small class="text-body-secondary"
+                  >Last updated 3 mins ago</small
+                >
+              </p>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Kontak -->
-  <section id="contact" class="py-5">
-    <div class="container">
-      <h2 class="text-center mb-4">Kontak</h2>
-      <div class="row justify-content-center">
-        <div class="col-md-6">
-          <form>
-            <div class="mb-3">
-              <label for="name" class="form-label">Nama</label>
-              <input type="text" class="form-control" id="name" placeholder="Nama Anda">
+    <!-- Portofolio -->
+    <section id="portfolio" class="py-5 bg-light">
+      <div class="container">
+        <h2 class="text-center mb-4">Portofolio</h2>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card">
+              <img
+                src="img/ecommerce.png"
+                class="card-img-top"
+                alt="Project 1"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Project 1</h5>
+                <p class="card-text">
+                  Membuat Website Ecommerce menggunakan tools React.js dan
+                  Express.js
+                </p>
+              </div>
             </div>
-            <div class="mb-3">
-              <label for="email" class="form-label">Email</label>
-              <input type="email" class="form-control" id="email" placeholder="email@contoh.com">
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="img/sekolah.jpg" class="card-img-top" alt="Project 2" />
+              <div class="card-body">
+                <h5 class="card-title">Project 2</h5>
+                <p class="card-text">
+                  Membuat Website Sekolah Hebat menggunakan tools PHP fullstack
+                </p>
+              </div>
             </div>
-            <div class="mb-3">
-              <label for="message" class="form-label">Pesan</label>
-              <textarea class="form-control" id="message" rows="4" placeholder="Tulis pesan Anda..."></textarea>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="img/movie.jpg" class="card-img-top" alt="Project 3" />
+              <div class="card-body">
+                <h5 class="card-title">Project 3</h5>
+                <p class="card-text">
+                  Membuat website Kumpulan movie menggunakan React.js
+                </p>
+              </div>
             </div>
-            <button type="submit" class="btn btn-primary">Kirim</button>
-          </form>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Footer -->
-  <footer class="bg-dark text-white text-center py-3">
-    <div class="container">
-      <p class="mb-0">&copy; 2025 Muhammad Harun Al Rasyid. Semua Hak Dilindungi.</p>
-    </div>
-  </footer>
+    <!-- Kontak -->
+    <section id="contact" class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Kontak</h2>
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">Nama</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  placeholder="Nama Anda"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="email@contoh.com"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Pesan</label>
+                <textarea
+                  class="form-control"
+                  id="message"
+                  rows="4"
+                  placeholder="Tulis pesan Anda..."
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Kirim</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-</body>
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+      <div class="container">
+        <p class="mb-0">
+          &copy; 2025 Muhammad Harun Al Rasyid. Semua Hak Dilindungi.
+        </p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
