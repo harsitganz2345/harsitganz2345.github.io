@@ -1,173 +1,145 @@
 <!DOCTYPE html>
-<html lang="id">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portofolio Saya</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container">
-        <a class="navbar-brand" href="#">Portofolio</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#about">Tentang</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#portfolio">Portofolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Kontak</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-
-    <!-- Hero -->
-    <header class="bg-primary text-white text-center py-5">
-      <div class="container">
-        <h1 class="display-4">Halo, Saya Muhammad Harun Al Rasyid</h1>
-        <p class="lead">Web Developer | Web Designer | Freelancer</p>
-      </div>
-    </header>
-
-    <!-- Tentang -->
-    <section id="about" class="d-flex justify-content-center align-items-center" style="min-height: 100vh;">
-      <div class="card mb-3" style="max-width: 540px">
-        <div class="row g-0">
-          <div class="col-md-4">
-            <img src="img/pp.png" class="img-fluid rounded-start" alt="..." />
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title">Tentang Saya</h5>
-              <p class="card-text">
-                Saya adalah seorang Junior Frontend Developer yang terbiasa
-                menggunakan HTML,Tailwind CSS,Bootstrap,React.js,.NET,Express.js
-              </p>
-              <p class="card-text">
-                <small class="text-body-secondary"
-                  >Last updated 3 mins ago</small
-                >
-              </p>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <!-- mycss -->
+     <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body id="home">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm fixed-top">
+     <div class="container">
+          <a class="navbar-brand" href="#">Harun</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              <a class="nav-link" aria-current="page" href="#about">About</a>
+              <a class="nav-link" aria-current="page" href="#projects">Project</a>
+              <a  class="nav-link" aria-current="page" href="#contact">Contact</a>
             </div>
           </div>
-        </div>
-      </div>
+     </div>
+    </nav>   
+    <!-- jumbotron  -->
+    <section class="jumbotron text-center">
+        <img src="img/p (2).jpg" width="150" class="rounded-circle img-thumbnail">
+        <h1 class="display-4">Hello, world!</h1>
+        <p class="lead">Web Developer | Front End </p>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,32L60,26.7C120,21,240,11,360,32C480,53,600,107,720,160C840,213,960,267,1080,240C1200,213,1320,107,1380,53.3L1440,0L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
     </section>
-
-    <!-- Portofolio -->
-    <section id="portfolio" class="py-5 bg-light">
-      <div class="container">
-        <h2 class="text-center mb-4">Portofolio</h2>
-        <div class="row g-4">
-          <div class="col-md-4">
-            <div class="card">
-              <img
-                src="img/ecommerce.png"
-                class="card-img-top"
-                alt="Project 1"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Project 1</h5>
-                <p class="card-text">
-                  Membuat Website Ecommerce menggunakan tools React.js dan
-                  Express.js
-                </p>
-              </div>
+    <!-- about -->
+     <section id="about">
+        <div class="container">
+            <div class="row text-center mb-3">
+                <div class="col">
+                    <h2>About Me</h2>
+                </div>
             </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card">
-              <img src="img/sekolah.jpg" class="card-img-top" alt="Project 2" />
-              <div class="card-body">
-                <h5 class="card-title">Project 2</h5>
-                <p class="card-text">
-                  Membuat Website Sekolah Hebat menggunakan tools PHP fullstack
-                </p>
-              </div>
+            <div class="row  justify-content-center text-center fs-5">
+                <div class="col-md-4">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae odio officia culpa fugiat ducimus. Facere.</p>
+                </div>
+                <div class="col-md-4">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita, optio.</p>
+                </div>
             </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card">
-              <img src="img/movie.jpg" class="card-img-top" alt="Project 3" />
-              <div class="card-body">
-                <h5 class="card-title">Project 3</h5>
-                <p class="card-text">
-                  Membuat website Kumpulan movie menggunakan React.js
-                </p>
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
-    </section>
-
-    <!-- Kontak -->
-    <section id="contact" class="py-5">
-      <div class="container">
-        <h2 class="text-center mb-4">Kontak</h2>
-        <div class="row justify-content-center">
-          <div class="col-md-6">
-            <form>
-              <div class="mb-3">
-                <label for="name" class="form-label">Nama</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="name"
-                  placeholder="Nama Anda"
-                />
-              </div>
-              <div class="mb-3">
-                <label for="email" class="form-label">Email</label>
-                <input
-                  type="email"
-                  class="form-control"
-                  id="email"
-                  placeholder="email@contoh.com"
-                />
-              </div>
-              <div class="mb-3">
-                <label for="message" class="form-label">Pesan</label>
-                <textarea
-                  class="form-control"
-                  id="message"
-                  rows="4"
-                  placeholder="Tulis pesan Anda..."
-                ></textarea>
-              </div>
-              <button type="submit" class="btn btn-primary">Kirim</button>
-            </form>
-          </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#e2edff" fill-opacity="1" d="M0,288L21.8,245.3C43.6,203,87,117,131,117.3C174.5,117,218,203,262,218.7C305.5,235,349,181,393,138.7C436.4,96,480,64,524,69.3C567.3,75,611,117,655,122.7C698.2,128,742,96,785,80C829.1,64,873,64,916,90.7C960,117,1004,171,1047,170.7C1090.9,171,1135,117,1178,122.7C1221.8,128,1265,192,1309,208C1352.7,224,1396,192,1418,176L1440,160L1440,320L1418.2,320C1396.4,320,1353,320,1309,320C1265.5,320,1222,320,1178,320C1134.5,320,1091,320,1047,320C1003.6,320,960,320,916,320C872.7,320,829,320,785,320C741.8,320,698,320,655,320C610.9,320,567,320,524,320C480,320,436,320,393,320C349.1,320,305,320,262,320C218.2,320,175,320,131,320C87.3,320,44,320,22,320L0,320Z"></path></svg>
+     </section>
+     <!-- porjects -->
+     <section id="projects">
+        <div class="container">
+            <div class="row text-center mb-3">
+                <div class="col">
+                    <h2>My Project</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <img src="img/projects/ecommerce.png" class="card-img-top" alt="Project-1">
+                        <div class="card-body">
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <img src="img/projects/movie.jpg" class="card-img-top" alt="Project-2">
+                        <div class="card-body">
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <img src="img/projects/sekolah.jpg" class="card-img-top" alt="Project-3">
+                        <div class="card-body">
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <img src="img/projects/4.jpeg" class="card-img-top" alt="Project-3">
+                        <div class="card-body">
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <img src="img/projects/6.jpg" class="card-img-top" alt="Project-3">
+                        <div class="card-body">
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                      </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="bg-dark text-white text-center py-3">
-      <div class="container">
-        <p class="mb-0">
-          &copy; 2025 Muhammad Harun Al Rasyid. Semua Hak Dilindungi.
-        </p>
-      </div>
-    </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-  </body>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,320L40,298.7C80,277,160,235,240,208C320,181,400,171,480,170.7C560,171,640,181,720,202.7C800,224,880,256,960,272C1040,288,1120,288,1200,245.3C1280,203,1360,117,1400,74.7L1440,32L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
+     </section>
+     <!-- contact -->
+     <section id="contact">
+        <div class="container">
+            <div class="row text-center mb-3">
+                <div class="col">
+                    <h2>Contact Me</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <form>
+                        <div class="mb-3">
+                          <label for="name" class="form-label">Nama Lengkap</label>
+                          <input type="text" class="form-control" id="name" aria-describedby="name">
+                        </div>
+                        <div class="mb-3">
+                          <label for="email" class="form-label">Email</label>
+                          <input type="email" class="form-control" id="email" aria-describedby="email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="saran" class="form-label">Saran</label>
+                            <textarea class="form-control" id="saran" rows="3"></textarea>
+                          </div>
+                        <button type="submit" class="btn btn-primary">Kirim</button>
+                      </form>
+                </div>
+            </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0d6efd" fill-opacity="1" d="M0,64L30,80C60,96,120,128,180,144C240,160,300,160,360,133.3C420,107,480,53,540,58.7C600,64,660,128,720,144C780,160,840,128,900,144C960,160,1020,224,1080,224C1140,224,1200,160,1260,133.3C1320,107,1380,117,1410,122.7L1440,128L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"></path></svg>
+     </section>
+     <!-- footer -->
+      <footer class="bg-primary text-white text-center pb-5">
+        <p>Created With <i class="bi bi-heart-fill text-danger"></i> by <a href="https://www.instagram.com/mhmmd.hrn.a.r/" class="text-white fw-bold">Sandika Galih</a> </p>
+      </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </html>
